@@ -1,18 +1,26 @@
-# React + Vite
+## 🛒 ShopZone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kullanıcıların ürünleri görüntüleyip filtreleyebildiği, detaylarını inceleyebildiği ve sepete ekleyerek alışveriş yapabildiği modern bir e-ticaret uygulamasıdır. Kullanıcı dostu arayüzü ve responsive tasarımı sayesinde hem mobil hem de masaüstü cihazlarda rahatlıkla kullanılabilir.  
 
-Currently, two official plugins are available:
+## 📽️ Preview
+![e-ticaret](https://github.com/user-attachments/assets/2831499e-d566-4a9c-823c-2277861214ff)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## ✨ Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Ürünleri kategoriye göre filtreleme ve sıralama  
+- Ürün detay sayfası ile açıklama, fiyat ve yorumları görüntüleme  
+- Sepete ürün ekleme, adet artırma/azaltma ve silme  
+- Sepet özeti ile toplam ürün adedi ve fiyatını görüntüleme  
+- Pagination ve slider desteği  
+- Responsive tasarım ile mobil ve masaüstü uyumu
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# e-ticaret
-# e-ticaret
+- **React.js**
+- **Redux & Redux-Persist**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Axios**
+- **React Icons** 
+- **React Slick**
